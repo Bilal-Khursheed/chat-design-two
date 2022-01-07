@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat work</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+    <div class="chat">
+            <ul class="chatHeadingList"><li onclick="">People <hr class="chatHeadingHr"><li>Chat<hr></li> <li>X</li></ul>
+        <hr class="chatHeadingMainHr">
+          <!-- <div class="messageList">
+            <p>Bilal is here and working on design</p>
+          </div>
+          <p class="messageUser">you:10pm</p>
+          <div class="messageListVisitor">
+            <p>We will be improving all of chat eventually, too. Including names</p>
+          </div>
+          <p class="messageUser">Bilal:10pm</p> -->
+          <div class="peopleList">
+              <p>Bilal</p>
+              <p>ALI</p>
+          </div>
+          <div class="peopleList">
+            <p>Bilal</p>
+            <p>ALI</p>
+        </div>
+        <div class="peopleList">
+            <p>Bilal</p>
+            <p>ALI</p>
+        </div>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="chatInput"></label>
+          <input
+            id="chatInput"
+            class="chat-input"
+            type="text"
+            placeholder="Type your message here.."
+          >
+          <button type="submit" class="send-chat-button">
+            >>
+          </button>
+        </input>
+        </form>
+        <div class="downloadManu">
+            Download chat(.txt)
+        </div>
+      </div>
+</body>
+
+</html>
