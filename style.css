@@ -1,0 +1,117 @@
+.chat {
+    position: absolute;
+    right: 10px;
+    bottom: 75px;
+    width: 250px;
+    height: calc(100% - 80px);
+    background-color: #ffffff;
+    border-radius: 4px;
+    border-style:groove;
+}
+
+.messageList {
+    padding: 1px 6px 1px 6px;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #1BEBB9;
+    border-radius: 10px 10px 10px 10px;
+    margin: 4px
+}
+
+.messageListVisitor {
+    padding: 1px 6px 1px 6px;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #EFF3F5;
+    border-radius: 10px 10px 10px 10px;
+    margin: 4px
+}
+
+.chat-input {
+    position: absolute;
+    bottom: 16px;
+    width: 220px;
+    height: 32px;
+    border-radius: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 1px solid #C8D1DC;
+    padding-left: 10px;
+
+}
+
+.send-chat-button {
+    position: absolute;
+    bottom: 21px;
+    right: 20px;
+    width: 24px;
+    height: 21px;
+    background-color: #ffff;
+    border: none;
+    font-weight: bold;
+}
+
+.chatHeadingList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.chatHeadingList li {
+    padding-right: 8px;
+}
+
+.chatHeadingList li:hover {
+    cursor: pointer;
+}
+
+.chatHeadingList li:last-child {
+    margin-left: auto;
+
+}
+
+.messageUser {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 1px;
+    color: #757272;
+}
+
+.chatHeadingHr {
+    background-color: #1BEBB9;
+    height: 2px;
+    color: #1BEBB9;
+    margin-bottom: 2px;
+    border: 2px;
+}
+
+.chatHeadingMainHr {
+    margin-top: -24px;
+}
+
+.downloadManu{
+    position: absolute;
+    bottom: 1px;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 10px;
+    color: #6B7785;
+    right: 10px;
+}
+.peopleList {
+display: flex;
+flex-direction: row;
+padding-left: 10px;
+height:30px;
+}
+.peopleList p:nth-child(2) {
+    margin-left: auto;
+    padding-right: 10px;
+    }
+.peopleList p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height:16px;
+
+}
